@@ -1,0 +1,76 @@
+export default function Footer() {
+  return (
+    <footer className="w-full bg-gray-100 text-center py-4 text-sm text-gray-600 mt-auto">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
+        {/* Registered Address */}
+        <div>
+          <h4 className="text-xl font-bold mb-4">Registered Address</h4>
+          <p className="text-base leading-relaxed">
+            C/o. Yeshwantrao Chavan College of Engineering,
+            <br />
+            Hingna Road, Wanadongri, Nagpur,
+            <br />
+            Maharashtra – 441110
+          </p>
+          <p className="mt-4">
+            <strong>Email:</strong> yccetbif@ycce.edu
+          </p>
+          <p>
+            <strong>Mobile:</strong> 9552555061 / 8208717292
+          </p>
+        </div>
+
+        {/* Embedded Map */}
+        <div>
+          <h4 className="text-xl font-bold mb-4">Find Us</h4>
+          <div className="w-full h-64 rounded overflow-hidden shadow-lg">
+            <iframe
+              title="YCCE TBI Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.3123362183983!2d79.01648937522763!3d20.979109980689926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c07b3c939b5d%3A0x6b6e8a3f1d7b0f9d!2sYeshwantrao%20Chavan%20College%20Of%20Engineering%20(YCCE)!5e0!3m2!1sen!2sin!4v1683638511872!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+
+        {/* Quick Links */}
+        <div>
+          <h4 className="text-xl font-bold mb-4">Quick Links</h4>
+          <ul className="space-y-3 text-base">
+            <li>
+              <a href="/privacy-policy" className="hover:underline">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="/terms-of-use" className="hover:underline">
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a href="/refund-policy" className="hover:underline">
+                Refund Policy
+              </a>
+            </li>
+            <li>
+              <a href="/disclaimer" className="hover:underline">
+                Disclaimer
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="hover:underline">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="mt-10">
+        © {new Date().getFullYear()} TBI@FOUNDATION. All rights reserved.
+      </div>
+    </footer>
+  );
+}
