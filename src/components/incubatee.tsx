@@ -34,7 +34,7 @@ const startups = [
 ];
 
 // Utility: Split into chunks of 10
-const chunkArray = (arr: Startup[], size: number) =>
+const chunkArray = (arr: startups[], size: number) =>
   Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
     arr.slice(i * size, i * size + size)
   );
