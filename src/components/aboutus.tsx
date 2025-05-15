@@ -13,7 +13,7 @@ export default function AboutUs() {
             About Us
           </h2>
           <Image
-            src="/images/TBI-LOGO.jpg"
+            src="/images/TBI-LOGO.png"
             alt="YCCE Logo"
             width={200}
             height={200}
