@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="w-full bg-gray-100 text-center py-4 text-sm text-gray-600 mt-auto">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
+    <footer className="w-full bg-gray-100 text-gray-700 py-10 px-6 text-sm mt-auto">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 items-start text-center md:text-left">
         {/* Registered Address */}
         <div>
           <h4 className="text-xl font-bold mb-4">Registered Address</h4>
@@ -23,7 +23,7 @@ export default function Footer() {
         {/* Embedded Map */}
         <div>
           <h4 className="text-xl font-bold mb-4">Find Us</h4>
-          <div className="w-full h-64 rounded overflow-hidden shadow-lg">
+          <div className="w-full h-64 rounded overflow-hidden shadow-md">
             <iframe
               title="YCCE TBI Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.3123362183983!2d79.01648937522763!3d20.979109980689926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c07b3c939b5d%3A0x6b6e8a3f1d7b0f9d!2sYeshwantrao%20Chavan%20College%20Of%20Engineering%20(YCCE)!5e0!3m2!1sen!2sin!4v1683638511872!5m2!1sen!2sin"
@@ -38,37 +38,39 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h4 className="text-xl font-bold mb-4">Quick Links</h4>
-          <ul className="space-y-3 text-base">
+          <h4 className="text-xl font-bold mb-4 md:ml-12">Quick Links</h4>
+          <ul className="space-y-3 text-base md:ml-13">
             <li>
-              <a href="/privacy-policy" className="hover:underline">
-                Privacy Policy
+              <a href="/privacy-policy" className="hover:underline block">
+                YCCE Innovation & Startup Policy
               </a>
             </li>
             <li>
-              <a href="/terms-of-use" className="hover:underline">
-                Terms of Use
+              <a href="/terms-of-use" className="hover:underline block">
+                National Innovation & Startup Policy
               </a>
             </li>
             <li>
-              <a href="/refund-policy" className="hover:underline">
-                Refund Policy
+              <a href="/refund-policy" className="hover:underline block">
+                Maharashtra Innovation & Startup Policy
               </a>
             </li>
             <li>
-              <a href="/disclaimer" className="hover:underline">
-                Disclaimer
+              <a href="/disclaimer" className="hover:underline block">
+                Incubation Agreement
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:underline">
-                Contact Us
+              <a href="/contact" className="hover:underline block">
+                Fabrication Laboratory
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="mt-10">
+
+      {/* Bottom Note */}
+      <div className="mt-10 text-center text-gray-600 text-sm sm:ml-2">
         © {new Date().getFullYear()} TBI@FOUNDATION. All rights reserved.
       </div>
     </footer>
