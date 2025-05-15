@@ -5,7 +5,10 @@ import "swiper/css";
 import { Pagination } from "swiper/modules";
 import "swiper/css/navigation";
 
-const startups = [
+type Startup = {
+  logo: string;
+};
+const startups: Startup[] = [
   { logo: "/startup/startup(25).jpg" },
   { logo: "/startup/startup(26).jpg" },
   { logo: "/startup/startup(27).jpg" },
@@ -35,14 +38,14 @@ const startups = [
 ];
 
 // Utility: Split into chunks of 10
-const chunkArray = (arr: any[], size: number) =>
-  Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
+function chunkArray<T>(arr: T[], size: number): T[][] {
+  return Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
     arr.slice(i * size, i * size + size)
   );
+}
 
 export default function IncubateeSwiper() {
   const chunks = chunkArray(startups, 10);
-
   return (
     <section className="bg-white py-16 px-6 md:px-16">
       <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
