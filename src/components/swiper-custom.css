@@ -1,0 +1,15 @@
+/* Custom line-style bullets for Swiper pagination */
+.custom-swiper .swiper-pagination-bullet {
+  width: 30px;
+  height: 4px;
+  background-color: #333; /* greyish-black */
+  opacity: 0.4;
+  border-radius: 2px;
+  transition: opacity 0.3s ease;
+  margin: 0 4px;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #000; /* darker for active bullet */
+  opacity: 1;
+}

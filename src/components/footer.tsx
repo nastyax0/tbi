@@ -25,8 +25,8 @@ export default function Footer() {
           <h4 className="text-xl font-bold mb-4">Find Us</h4>
           <div className="w-full h-64 rounded overflow-hidden shadow-md">
             <iframe
-              title="YCCE TBI Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.3123362183983!2d79.01648937522763!3d20.979109980689926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c07b3c939b5d%3A0x6b6e8a3f1d7b0f9d!2sYeshwantrao%20Chavan%20College%20Of%20Engineering%20(YCCE)!5e0!3m2!1sen!2sin!4v1683638511872!5m2!1sen!2sin"
+              title="Wanadongri Location"
+              src="https://www.google.com/maps?q=3XWH%2B3C+Wanadongri,+Maharashtra&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}

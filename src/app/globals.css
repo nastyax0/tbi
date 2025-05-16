@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  width: 30px;
+  height: 4px;
+  background-color: #444; /* greyish black */
+  opacity: 0.3;
+  border-radius: 2px;
+  transition: opacity 0.3s ease;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #111; /* darker active */
+}

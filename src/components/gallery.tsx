@@ -5,6 +5,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "./swiper-custom.css";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -43,7 +44,7 @@ export default function VirtualTour() {
             autoplay={{ delay: 2500 }}
             loop
             pagination={{ clickable: true }}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg custom-swiper"
           >
             {galleryImages.map((src, idx) => (
               <SwiperSlide key={idx}>
