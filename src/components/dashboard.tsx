@@ -48,8 +48,22 @@ export default function DashboardCards() {
         slidesOffsetBefore={100}
         slidesOffsetAfter={100}
         breakpoints={{
-          640: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
+          // disable offsets on mobile (below 640)
+          0: {
+            slidesOffsetBefore: 0,
+            slidesOffsetAfter: 0,
+            slidesPerView: 1,
+          },
+          640: {
+            slidesOffsetBefore: 100,
+            slidesOffsetAfter: 100,
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesOffsetBefore: 100,
+            slidesOffsetAfter: 100,
+            slidesPerView: 3,
+          },
         }}
         className="pb-10 swiper-custom-nav"
       >
