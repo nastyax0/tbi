@@ -38,3 +38,8 @@ body {
   opacity: 1;
   background-color: #111; /* darker active */
 }
+
+.swiper-custom-nav .swiper-button-next,
+.swiper-custom-nav .swiper-button-prev {
+  color: black !important; /* Overrides default blue */
+}
