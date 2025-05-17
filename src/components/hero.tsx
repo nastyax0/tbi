@@ -14,9 +14,10 @@ export default function Hero() {
             <span className="text-[#e04b8a]">Fueling Dreams</span>
           </h1>
           <p className="text-lg text-gray-200 max-w-xl">
-            &apos;Every big startup once started as a small idea nurtured in the
-            right environment. We're here to be that environment.&apos;
+            &quot;Every big startup once started as a small idea nurtured in the
+            right environment. We&rsquo;re here to be that environment.&quot;
           </p>
+
           <Link
             href="/about"
             className="inline-block bg-[#e04b8a] text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600 transition"
