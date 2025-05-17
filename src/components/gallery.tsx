@@ -12,8 +12,7 @@ import Link from "next/link";
 const galleryImages = [
   "/images/gallery1.jpg",
   "/images/gallery2.jpg",
-  "/images/tour1.jpg",
-  "/images/tour2.jpg",
+  "/images/gallery3.jpg",
 ];
 
 export default function VirtualTour() {

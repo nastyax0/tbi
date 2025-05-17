@@ -33,13 +33,45 @@ export default function Navbar() {
             href="/about"
             className="text-white hover:text-[#e04b8a] transition-colors"
           >
-            About
+            About Us
+          </Link>
+
+          <Link
+            href="/contact"
+            className="text-white hover:text-[#e04b8a] transition-colors"
+          >
+            Incubation & Startups
           </Link>
           <Link
             href="/contact"
             className="text-white hover:text-[#e04b8a] transition-colors"
           >
-            Contact
+            Services
+          </Link>
+          <Link
+            href="/contact"
+            className="text-white hover:text-[#e04b8a] transition-colors"
+          >
+            Funding
+          </Link>
+          <Link
+            href="/contact"
+            className="text-white hover:text-[#e04b8a] transition-colors"
+          >
+            Events
+          </Link>
+          <Link
+            href="/contact"
+            className="text-white hover:text-[#e04b8a] transition-colors"
+          >
+            Blogs
+          </Link>
+
+          <Link
+            href="/contact"
+            className="text-white hover:text-[#e04b8a] transition-colors"
+          >
+            Contact Us
           </Link>
         </div>
 
@@ -79,7 +111,49 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="hover:text-[#e04b8a] transition-colors"
           >
+            Incubation & Startups
+          </Link>
+          <Link
+            href="/contact"
+            onClick={() => setIsOpen(false)}
+            className="hover:text-[#e04b8a] transition-colors"
+          >
             Contact
+          </Link>
+          <Link
+            href="/contact"
+            onClick={() => setIsOpen(false)}
+            className="hover:text-[#e04b8a] transition-colors"
+          >
+            Services
+          </Link>
+          <Link
+            href="/contact"
+            onClick={() => setIsOpen(false)}
+            className="hover:text-[#e04b8a] transition-colors"
+          >
+            Funding
+          </Link>
+          <Link
+            href="/contact"
+            onClick={() => setIsOpen(false)}
+            className="hover:text-[#e04b8a] transition-colors"
+          >
+            Events
+          </Link>
+          <Link
+            href="/contact"
+            onClick={() => setIsOpen(false)}
+            className="hover:text-[#e04b8a] transition-colors"
+          >
+            Blogs
+          </Link>
+          <Link
+            href="/contact"
+            onClick={() => setIsOpen(false)}
+            className="hover:text-[#e04b8a] transition-colors"
+          >
+            Contact Us
           </Link>
         </div>
       </div>

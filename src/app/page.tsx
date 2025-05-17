@@ -5,6 +5,8 @@ import AboutUs from "@/components/aboutus";
 import Services from "@/components/services";
 import Gallery from "@/components/gallery";
 import IncubateesSection from "@/components/incubatee";
+import PartnersSection from "@/components/partner";
+import DashboardCards from "@/components/dashboard";
 
 export default function Home() {
   return (
@@ -13,8 +15,10 @@ export default function Home() {
       <HeroWithCarousel />
       <AboutUs />
       <Services />
+      <DashboardCards />
       <Gallery />
       <IncubateesSection />
+      <PartnersSection />
       <Footer />
     </>
   );
