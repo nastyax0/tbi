@@ -6,6 +6,10 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
+type partners = {
+  logo: string;
+};
+
 const partners = [
   { logo: "/partners/partner1.jpg" },
   { logo: "/partners/partner2.jpg" },
@@ -16,7 +20,7 @@ const partners = [
   // Add more logos as needed
 ];
 
-const chunkArray = (arr: any[], size: number) =>
+const chunkArray = (arr: partners[], size: number) =>
   Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
     arr.slice(i * size, i * size + size)
   );

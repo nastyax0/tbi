@@ -14,8 +14,8 @@ export default function Hero() {
             <span className="text-[#e04b8a]">Fueling Dreams</span>
           </h1>
           <p className="text-lg text-gray-200 max-w-xl">
-            “Every big startup once started as a small idea nurtured in the
-            right environment. We're here to be that environment.”
+            &apos;Every big startup once started as a small idea nurtured in the
+            right environment. We're here to be that environment.&apos;
           </p>
           <Link
             href="/about"
