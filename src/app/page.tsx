@@ -11,7 +11,6 @@ import DashboardCards from "@/components/dashboard";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <HeroWithCarousel />
       <AboutUs />
       <Services />
@@ -19,7 +18,6 @@ export default function Home() {
       <Gallery />
       <IncubateesSection />
       <PartnersSection />
-      <Footer />
     </>
   );
 }

@@ -11,22 +11,22 @@ const incubationTypes = [
   {
     title: "Pre-Incubation",
     image: "/images/dashboard1.jpg",
-    link: "/dashboard/pre-incubation",
+    link: "/dashboard",
   },
   {
     title: "Physical Incubation",
     image: "/images/dashboard2.jpg",
-    link: "/dashboard/physical-incubation",
+    link: "/dashboard",
   },
   {
     title: "Virtual Incubation",
     image: "/images/dashboard3.jpg",
-    link: "/dashboard/virtual-incubation",
+    link: "/dashboard",
   },
   {
     title: "Co-operate Incubation",
     image: "/images/dashboard4.jpg",
-    link: "/dashboard/virtual-incubation",
+    link: "/dashboard",
   },
 ];
 
