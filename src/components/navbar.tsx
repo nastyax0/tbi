@@ -8,7 +8,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Incubation & Startups", href: "/contact" },
-  { label: "Services", href: "/contact" },
+  { label: "Services", href: "/service" },
   { label: "Funding", href: "/files/funding.pdf" },
   {
     label: "Events",
