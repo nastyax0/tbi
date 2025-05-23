@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image"; // if you're using Next.js
+// if you're using Next.js
 
 const KeyEventsTimeline = () => {
   const events = [
@@ -112,7 +112,7 @@ const KeyEventsTimeline = () => {
           </div>
 
           <div className="hidden md:grid grid-cols-8 gap-4 relative border-t-4 border-primary pt-14">
-            {events.map((event, index) => (
+            {events.map((event) => (
               <div
                 key={event.id}
                 className="relative flex flex-col items-center justify-between text-center"

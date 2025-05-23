@@ -86,7 +86,7 @@ const ServiceCards = () => {
             <h3 className="text-2xl font-semibold mb-2">FabLab</h3>
             <p>
               Yeshwantrao Chavan College of Engineering has established a
-              Fabrication Laboratory under the ASPIRE scheme. It's open 24x7
+              Fabrication Laboratory under the ASPIRE scheme. It is open 24x7
               with tools for multiple disciplines.
             </p>
             <p className="mt-2">
