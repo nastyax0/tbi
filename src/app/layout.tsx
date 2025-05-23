@@ -3,6 +3,7 @@ import "./globals.css";
 import AOSInit from "@/components/AOSINIT";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import RouteLoader from "@/components/bootloader";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <RouteLoader />
         <AOSInit />
         <Navbar />
         {children}

@@ -119,10 +119,10 @@ const KeyEventsTimeline = () => {
                 <div className="absolute -left-5 top-0 bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">
                   {event.id}
                 </div>
-                <h3 className="text-lg font-semibold text-base-content">
+                <h3 className="text-lg  font-semibold text-base-content">
                   {event.title}
                 </h3>
-                <p className="text-sm text-gray-500">{event.date}</p>
+                <p className="text-sm  text-gray-500">{event.date}</p>
               </div>
             ))}
           </div>
